@@ -1,6 +1,6 @@
 # Perfusion Simulation
 
-A Python-based implementation for simulating perfusion phenomena in tissues using Monte Carlo methods. This simulation tracks particle movement through capillary networks to model perfusion processes.
+A Python-based implementation for simulating perfusion phenomena in tissues using particle methods. This simulation tracks particle movement through capillary networks to model perfusion processes.
 
 ## Overview
 
