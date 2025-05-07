@@ -1,0 +1,78 @@
+sequence:
+
+  type: STEAM_BVALUE600
+
+  PGSE:
+     Gmax: 40.572
+     Delta: 20.547
+     epsilon: 0.676
+     delta: 9.921
+     alpha90: 1
+     alphaRO: 1
+
+  MCSE:
+     Gmax: 39.478
+     epsilon: 0.661
+     delta1: 7.819
+     delta2: 16.299
+     alpha90: 1
+     alphaRO: 1
+
+  STEAM_BVALUE600:
+     Gmax: 44.360
+     Delta: 1000
+     epsilon: 0.89
+     delta: 0.57
+     alpha90: 1
+     alphaRO: 1
+
+  STEAM_BVALUE150:
+     Gmax: 22.18
+     Delta: 1000
+     epsilon: 0.89
+     delta: 0.57
+     alpha90: 1
+     alphaRO: 1
+
+  PGSE_BVALUE600:
+     Gmax: 53.63
+     Delta: 19.3
+     epsilon: 0.89
+     delta: 8.62
+     alpha90: 1
+     alphaRO: 1
+
+  PGSE_BVALUE150:
+     Gmax: 26.81
+     Delta: 19.3
+     epsilon: 0.89
+     delta: 8.62
+     alpha90: 1
+     alphaRO: 1
+
+  MCSE_BVALUE600:
+     Gmax: 47.85
+     epsilon: 0.89
+     delta1: 7.22
+     delta2: 15.33
+     alpha90: 1
+     alphaRO: 1
+
+  MCSE_BVALUE150:
+     Gmax: 23.92
+     epsilon: 0.89
+     delta1: 7.22
+     delta2: 15.33
+     alpha90: 1
+     alphaRO: 1
+
+
+  gamma: 267.5e-6  # rad/ms/mT (it contains 10^-6 because the gradient is in mT/m and positions in um)
+
+  # number of time steps
+  N_t: 100
+
+  # time step limit [dt_free, dt_grad]
+  dt_max:
+    - 0.01 # during gradient-off (free)
+    - 0.001 # during gradient-on' this is the .yaml file
